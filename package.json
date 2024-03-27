@@ -7,7 +7,7 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "prepare": "husky",
+    "prepare": "husky install",
     "test": "jest --maxWorkers=50% --passWithNoTests",
     "test:watch": "jest --watch --maxWorkers=25%",
     "test:ci": "jest --runInBand"
